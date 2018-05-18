@@ -1,0 +1,1587 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:wheelerlab
+LIBS:FerroBot-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L D_Schottky D1
+U 1 1 5ADF81B3
+P 1375 6050
+F 0 "D1" H 1375 6150 50  0000 C CNN
+F 1 "D_Schottky" H 1375 5950 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1375 6050 50  0001 C CNN
+F 3 "" H 1375 6050 50  0001 C CNN
+	1    1375 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D2
+U 1 1 5ADF839C
+P 1375 6325
+F 0 "D2" H 1375 6425 50  0000 C CNN
+F 1 "D_Schottky" H 1375 6225 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1375 6325 50  0001 C CNN
+F 3 "" H 1375 6325 50  0001 C CNN
+	1    1375 6325
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D3
+U 1 1 5ADF83D1
+P 1375 6625
+F 0 "D3" H 1375 6725 50  0000 C CNN
+F 1 "D_Schottky" H 1375 6525 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1375 6625 50  0001 C CNN
+F 3 "" H 1375 6625 50  0001 C CNN
+	1    1375 6625
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D4
+U 1 1 5ADF844E
+P 1375 6925
+F 0 "D4" H 1375 7025 50  0000 C CNN
+F 1 "D_Schottky" H 1375 6825 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1375 6925 50  0001 C CNN
+F 3 "" H 1375 6925 50  0001 C CNN
+	1    1375 6925
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D5
+U 1 1 5ADF8454
+P 1375 7200
+F 0 "D5" H 1375 7300 50  0000 C CNN
+F 1 "D_Schottky" H 1375 7100 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1375 7200 50  0001 C CNN
+F 3 "" H 1375 7200 50  0001 C CNN
+	1    1375 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D6
+U 1 1 5ADF845A
+P 1375 7500
+F 0 "D6" H 1375 7600 50  0000 C CNN
+F 1 "D_Schottky" H 1375 7400 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1375 7500 50  0001 C CNN
+F 3 "" H 1375 7500 50  0001 C CNN
+	1    1375 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D7
+U 1 1 5ADF85DA
+P 2250 6050
+F 0 "D7" H 2250 6150 50  0000 C CNN
+F 1 "D_Schottky" H 2250 5950 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2250 6050 50  0001 C CNN
+F 3 "" H 2250 6050 50  0001 C CNN
+	1    2250 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D8
+U 1 1 5ADF85E0
+P 2250 6325
+F 0 "D8" H 2250 6425 50  0000 C CNN
+F 1 "D_Schottky" H 2250 6225 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2250 6325 50  0001 C CNN
+F 3 "" H 2250 6325 50  0001 C CNN
+	1    2250 6325
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D9
+U 1 1 5ADF85E6
+P 2250 6625
+F 0 "D9" H 2250 6725 50  0000 C CNN
+F 1 "D_Schottky" H 2250 6525 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2250 6625 50  0001 C CNN
+F 3 "" H 2250 6625 50  0001 C CNN
+	1    2250 6625
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D10
+U 1 1 5ADF85EC
+P 2250 6925
+F 0 "D10" H 2250 7025 50  0000 C CNN
+F 1 "D_Schottky" H 2250 6825 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2250 6925 50  0001 C CNN
+F 3 "" H 2250 6925 50  0001 C CNN
+	1    2250 6925
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D11
+U 1 1 5ADF85F2
+P 2250 7200
+F 0 "D11" H 2250 7300 50  0000 C CNN
+F 1 "D_Schottky" H 2250 7100 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2250 7200 50  0001 C CNN
+F 3 "" H 2250 7200 50  0001 C CNN
+	1    2250 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D12
+U 1 1 5ADF85F8
+P 2250 7500
+F 0 "D12" H 2250 7600 50  0000 C CNN
+F 1 "D_Schottky" H 2250 7400 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2250 7500 50  0001 C CNN
+F 3 "" H 2250 7500 50  0001 C CNN
+	1    2250 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D13
+U 1 1 5ADF8826
+P 3075 6050
+F 0 "D13" H 3075 6150 50  0000 C CNN
+F 1 "D_Schottky" H 3075 5950 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3075 6050 50  0001 C CNN
+F 3 "" H 3075 6050 50  0001 C CNN
+	1    3075 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D14
+U 1 1 5ADF882C
+P 3075 6325
+F 0 "D14" H 3075 6425 50  0000 C CNN
+F 1 "D_Schottky" H 3075 6225 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3075 6325 50  0001 C CNN
+F 3 "" H 3075 6325 50  0001 C CNN
+	1    3075 6325
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D15
+U 1 1 5ADF8832
+P 3075 6625
+F 0 "D15" H 3075 6725 50  0000 C CNN
+F 1 "D_Schottky" H 3075 6525 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3075 6625 50  0001 C CNN
+F 3 "" H 3075 6625 50  0001 C CNN
+	1    3075 6625
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D16
+U 1 1 5ADF8838
+P 3075 6925
+F 0 "D16" H 3075 7025 50  0000 C CNN
+F 1 "D_Schottky" H 3075 6825 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3075 6925 50  0001 C CNN
+F 3 "" H 3075 6925 50  0001 C CNN
+	1    3075 6925
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D17
+U 1 1 5ADF883E
+P 3075 7200
+F 0 "D17" H 3075 7300 50  0000 C CNN
+F 1 "D_Schottky" H 3075 7100 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3075 7200 50  0001 C CNN
+F 3 "" H 3075 7200 50  0001 C CNN
+	1    3075 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D18
+U 1 1 5ADF8844
+P 3075 7500
+F 0 "D18" H 3075 7600 50  0000 C CNN
+F 1 "D_Schottky" H 3075 7400 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3075 7500 50  0001 C CNN
+F 3 "" H 3075 7500 50  0001 C CNN
+	1    3075 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D19
+U 1 1 5ADF884A
+P 3950 6050
+F 0 "D19" H 3950 6150 50  0000 C CNN
+F 1 "D_Schottky" H 3950 5950 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3950 6050 50  0001 C CNN
+F 3 "" H 3950 6050 50  0001 C CNN
+	1    3950 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D20
+U 1 1 5ADF8850
+P 3950 6325
+F 0 "D20" H 3950 6425 50  0000 C CNN
+F 1 "D_Schottky" H 3950 6225 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3950 6325 50  0001 C CNN
+F 3 "" H 3950 6325 50  0001 C CNN
+	1    3950 6325
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D21
+U 1 1 5ADF8856
+P 3950 6625
+F 0 "D21" H 3950 6725 50  0000 C CNN
+F 1 "D_Schottky" H 3950 6525 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3950 6625 50  0001 C CNN
+F 3 "" H 3950 6625 50  0001 C CNN
+	1    3950 6625
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D22
+U 1 1 5ADF885C
+P 3950 6925
+F 0 "D22" H 3950 7025 50  0000 C CNN
+F 1 "D_Schottky" H 3950 6825 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3950 6925 50  0001 C CNN
+F 3 "" H 3950 6925 50  0001 C CNN
+	1    3950 6925
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D23
+U 1 1 5ADF8862
+P 3950 7200
+F 0 "D23" H 3950 7300 50  0000 C CNN
+F 1 "D_Schottky" H 3950 7100 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3950 7200 50  0001 C CNN
+F 3 "" H 3950 7200 50  0001 C CNN
+	1    3950 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D24
+U 1 1 5ADF8868
+P 3950 7500
+F 0 "D24" H 3950 7600 50  0000 C CNN
+F 1 "D_Schottky" H 3950 7400 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3950 7500 50  0001 C CNN
+F 3 "" H 3950 7500 50  0001 C CNN
+	1    3950 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D25
+U 1 1 5ADF8AEA
+P 4775 6050
+F 0 "D25" H 4775 6150 50  0000 C CNN
+F 1 "D_Schottky" H 4775 5950 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4775 6050 50  0001 C CNN
+F 3 "" H 4775 6050 50  0001 C CNN
+	1    4775 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D26
+U 1 1 5ADF8AF0
+P 4775 6325
+F 0 "D26" H 4775 6425 50  0000 C CNN
+F 1 "D_Schottky" H 4775 6225 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4775 6325 50  0001 C CNN
+F 3 "" H 4775 6325 50  0001 C CNN
+	1    4775 6325
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D27
+U 1 1 5ADF8AF6
+P 4775 6625
+F 0 "D27" H 4775 6725 50  0000 C CNN
+F 1 "D_Schottky" H 4775 6525 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4775 6625 50  0001 C CNN
+F 3 "" H 4775 6625 50  0001 C CNN
+	1    4775 6625
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D28
+U 1 1 5ADF8AFC
+P 4775 6925
+F 0 "D28" H 4775 7025 50  0000 C CNN
+F 1 "D_Schottky" H 4775 6825 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4775 6925 50  0001 C CNN
+F 3 "" H 4775 6925 50  0001 C CNN
+	1    4775 6925
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D29
+U 1 1 5ADF8B02
+P 4775 7200
+F 0 "D29" H 4775 7300 50  0000 C CNN
+F 1 "D_Schottky" H 4775 7100 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4775 7200 50  0001 C CNN
+F 3 "" H 4775 7200 50  0001 C CNN
+	1    4775 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D30
+U 1 1 5ADF8B08
+P 4775 7500
+F 0 "D30" H 4775 7600 50  0000 C CNN
+F 1 "D_Schottky" H 4775 7400 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4775 7500 50  0001 C CNN
+F 3 "" H 4775 7500 50  0001 C CNN
+	1    4775 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D31
+U 1 1 5ADF8B0E
+P 5625 6050
+F 0 "D31" H 5625 6150 50  0000 C CNN
+F 1 "D_Schottky" H 5625 5950 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5625 6050 50  0001 C CNN
+F 3 "" H 5625 6050 50  0001 C CNN
+	1    5625 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D32
+U 1 1 5ADF8B14
+P 5625 6325
+F 0 "D32" H 5625 6425 50  0000 C CNN
+F 1 "D_Schottky" H 5625 6225 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5625 6325 50  0001 C CNN
+F 3 "" H 5625 6325 50  0001 C CNN
+	1    5625 6325
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D33
+U 1 1 5ADF8B1A
+P 5625 6625
+F 0 "D33" H 5625 6725 50  0000 C CNN
+F 1 "D_Schottky" H 5625 6525 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5625 6625 50  0001 C CNN
+F 3 "" H 5625 6625 50  0001 C CNN
+	1    5625 6625
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D34
+U 1 1 5ADF8B20
+P 5625 6925
+F 0 "D34" H 5625 7025 50  0000 C CNN
+F 1 "D_Schottky" H 5625 6825 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5625 6925 50  0001 C CNN
+F 3 "" H 5625 6925 50  0001 C CNN
+	1    5625 6925
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D35
+U 1 1 5ADF8B26
+P 5625 7200
+F 0 "D35" H 5625 7300 50  0000 C CNN
+F 1 "D_Schottky" H 5625 7100 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5625 7200 50  0001 C CNN
+F 3 "" H 5625 7200 50  0001 C CNN
+	1    5625 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D36
+U 1 1 5ADF8B2C
+P 5625 7500
+F 0 "D36" H 5625 7600 50  0000 C CNN
+F 1 "D_Schottky" H 5625 7400 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5625 7500 50  0001 C CNN
+F 3 "" H 5625 7500 50  0001 C CNN
+	1    5625 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J6
+U 1 1 5ADF9671
+P 1300 4875
+F 0 "J6" H 1300 5075 50  0000 C CNN
+F 1 "CONN_01X03" V 1400 4875 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 1300 4875 50  0001 C CNN
+F 3 "" H 1300 4875 50  0001 C CNN
+	1    1300 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J5
+U 1 1 5ADF9D6A
+P 1300 4375
+F 0 "J5" H 1300 4575 50  0000 C CNN
+F 1 "CONN_01X03" V 1400 4375 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 1300 4375 50  0001 C CNN
+F 3 "" H 1300 4375 50  0001 C CNN
+	1    1300 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J4
+U 1 1 5ADF9DDD
+P 1300 3850
+F 0 "J4" H 1300 4050 50  0000 C CNN
+F 1 "CONN_01X03" V 1400 3850 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 1300 3850 50  0001 C CNN
+F 3 "" H 1300 3850 50  0001 C CNN
+	1    1300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J3
+U 1 1 5ADF9E4E
+P 1300 3350
+F 0 "J3" H 1300 3550 50  0000 C CNN
+F 1 "CONN_01X03" V 1400 3350 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 1300 3350 50  0001 C CNN
+F 3 "" H 1300 3350 50  0001 C CNN
+	1    1300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J2
+U 1 1 5ADFA2D3
+P 1300 2825
+F 0 "J2" H 1300 3025 50  0000 C CNN
+F 1 "CONN_01X03" V 1400 2825 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 1300 2825 50  0001 C CNN
+F 3 "" H 1300 2825 50  0001 C CNN
+	1    1300 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J1
+U 1 1 5ADFA436
+P 1300 2300
+F 0 "J1" H 1300 2500 50  0000 C CNN
+F 1 "CONN_01X03" V 1400 2300 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 1300 2300 50  0001 C CNN
+F 3 "" H 1300 2300 50  0001 C CNN
+	1    1300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J12
+U 1 1 5ADFAA69
+P 2225 4875
+F 0 "J12" H 2225 5075 50  0000 C CNN
+F 1 "CONN_01X03" V 2325 4875 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 2225 4875 50  0001 C CNN
+F 3 "" H 2225 4875 50  0001 C CNN
+	1    2225 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J11
+U 1 1 5ADFAA6F
+P 2225 4375
+F 0 "J11" H 2225 4575 50  0000 C CNN
+F 1 "CONN_01X03" V 2325 4375 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 2225 4375 50  0001 C CNN
+F 3 "" H 2225 4375 50  0001 C CNN
+	1    2225 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J10
+U 1 1 5ADFAA75
+P 2225 3850
+F 0 "J10" H 2225 4050 50  0000 C CNN
+F 1 "CONN_01X03" V 2325 3850 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 2225 3850 50  0001 C CNN
+F 3 "" H 2225 3850 50  0001 C CNN
+	1    2225 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J9
+U 1 1 5ADFAA7B
+P 2225 3350
+F 0 "J9" H 2225 3550 50  0000 C CNN
+F 1 "CONN_01X03" V 2325 3350 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 2225 3350 50  0001 C CNN
+F 3 "" H 2225 3350 50  0001 C CNN
+	1    2225 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J8
+U 1 1 5ADFAA81
+P 2225 2825
+F 0 "J8" H 2225 3025 50  0000 C CNN
+F 1 "CONN_01X03" V 2325 2825 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 2225 2825 50  0001 C CNN
+F 3 "" H 2225 2825 50  0001 C CNN
+	1    2225 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J7
+U 1 1 5ADFAA87
+P 2225 2300
+F 0 "J7" H 2225 2500 50  0000 C CNN
+F 1 "CONN_01X03" V 2325 2300 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 2225 2300 50  0001 C CNN
+F 3 "" H 2225 2300 50  0001 C CNN
+	1    2225 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J18
+U 1 1 5ADFCAA9
+P 3075 4875
+F 0 "J18" H 3075 5075 50  0000 C CNN
+F 1 "CONN_01X03" V 3175 4875 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 3075 4875 50  0001 C CNN
+F 3 "" H 3075 4875 50  0001 C CNN
+	1    3075 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J17
+U 1 1 5ADFCAAF
+P 3075 4375
+F 0 "J17" H 3075 4575 50  0000 C CNN
+F 1 "CONN_01X03" V 3175 4375 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 3075 4375 50  0001 C CNN
+F 3 "" H 3075 4375 50  0001 C CNN
+	1    3075 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J16
+U 1 1 5ADFCAB5
+P 3075 3850
+F 0 "J16" H 3075 4050 50  0000 C CNN
+F 1 "CONN_01X03" V 3175 3850 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 3075 3850 50  0001 C CNN
+F 3 "" H 3075 3850 50  0001 C CNN
+	1    3075 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J15
+U 1 1 5ADFCABB
+P 3075 3350
+F 0 "J15" H 3075 3550 50  0000 C CNN
+F 1 "CONN_01X03" V 3175 3350 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 3075 3350 50  0001 C CNN
+F 3 "" H 3075 3350 50  0001 C CNN
+	1    3075 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J14
+U 1 1 5ADFCAC1
+P 3075 2825
+F 0 "J14" H 3075 3025 50  0000 C CNN
+F 1 "CONN_01X03" V 3175 2825 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 3075 2825 50  0001 C CNN
+F 3 "" H 3075 2825 50  0001 C CNN
+	1    3075 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J13
+U 1 1 5ADFCAC7
+P 3075 2300
+F 0 "J13" H 3075 2500 50  0000 C CNN
+F 1 "CONN_01X03" V 3175 2300 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 3075 2300 50  0001 C CNN
+F 3 "" H 3075 2300 50  0001 C CNN
+	1    3075 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J24
+U 1 1 5ADFCACD
+P 4000 4875
+F 0 "J24" H 4000 5075 50  0000 C CNN
+F 1 "CONN_01X03" V 4100 4875 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 4000 4875 50  0001 C CNN
+F 3 "" H 4000 4875 50  0001 C CNN
+	1    4000 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J23
+U 1 1 5ADFCAD3
+P 4000 4375
+F 0 "J23" H 4000 4575 50  0000 C CNN
+F 1 "CONN_01X03" V 4100 4375 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 4000 4375 50  0001 C CNN
+F 3 "" H 4000 4375 50  0001 C CNN
+	1    4000 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J22
+U 1 1 5ADFCAD9
+P 4000 3850
+F 0 "J22" H 4000 4050 50  0000 C CNN
+F 1 "CONN_01X03" V 4100 3850 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 4000 3850 50  0001 C CNN
+F 3 "" H 4000 3850 50  0001 C CNN
+	1    4000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J21
+U 1 1 5ADFCADF
+P 4000 3350
+F 0 "J21" H 4000 3550 50  0000 C CNN
+F 1 "CONN_01X03" V 4100 3350 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 4000 3350 50  0001 C CNN
+F 3 "" H 4000 3350 50  0001 C CNN
+	1    4000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J20
+U 1 1 5ADFCAE5
+P 4000 2825
+F 0 "J20" H 4000 3025 50  0000 C CNN
+F 1 "CONN_01X03" V 4100 2825 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 4000 2825 50  0001 C CNN
+F 3 "" H 4000 2825 50  0001 C CNN
+	1    4000 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J19
+U 1 1 5ADFCAEB
+P 4000 2300
+F 0 "J19" H 4000 2500 50  0000 C CNN
+F 1 "CONN_01X03" V 4100 2300 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 4000 2300 50  0001 C CNN
+F 3 "" H 4000 2300 50  0001 C CNN
+	1    4000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J30
+U 1 1 5ADFE669
+P 4725 4875
+F 0 "J30" H 4725 5075 50  0000 C CNN
+F 1 "CONN_01X03" V 4825 4875 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 4725 4875 50  0001 C CNN
+F 3 "" H 4725 4875 50  0001 C CNN
+	1    4725 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J29
+U 1 1 5ADFE66F
+P 4725 4375
+F 0 "J29" H 4725 4575 50  0000 C CNN
+F 1 "CONN_01X03" V 4825 4375 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 4725 4375 50  0001 C CNN
+F 3 "" H 4725 4375 50  0001 C CNN
+	1    4725 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J28
+U 1 1 5ADFE675
+P 4725 3850
+F 0 "J28" H 4725 4050 50  0000 C CNN
+F 1 "CONN_01X03" V 4825 3850 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 4725 3850 50  0001 C CNN
+F 3 "" H 4725 3850 50  0001 C CNN
+	1    4725 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J27
+U 1 1 5ADFE67B
+P 4725 3350
+F 0 "J27" H 4725 3550 50  0000 C CNN
+F 1 "CONN_01X03" V 4825 3350 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 4725 3350 50  0001 C CNN
+F 3 "" H 4725 3350 50  0001 C CNN
+	1    4725 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J26
+U 1 1 5ADFE681
+P 4725 2825
+F 0 "J26" H 4725 3025 50  0000 C CNN
+F 1 "CONN_01X03" V 4825 2825 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 4725 2825 50  0001 C CNN
+F 3 "" H 4725 2825 50  0001 C CNN
+	1    4725 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J25
+U 1 1 5ADFE687
+P 4725 2300
+F 0 "J25" H 4725 2500 50  0000 C CNN
+F 1 "CONN_01X03" V 4825 2300 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 4725 2300 50  0001 C CNN
+F 3 "" H 4725 2300 50  0001 C CNN
+	1    4725 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J36
+U 1 1 5ADFE68D
+P 5650 4875
+F 0 "J36" H 5650 5075 50  0000 C CNN
+F 1 "CONN_01X03" V 5750 4875 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 5650 4875 50  0001 C CNN
+F 3 "" H 5650 4875 50  0001 C CNN
+	1    5650 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J35
+U 1 1 5ADFE693
+P 5650 4375
+F 0 "J35" H 5650 4575 50  0000 C CNN
+F 1 "CONN_01X03" V 5750 4375 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 5650 4375 50  0001 C CNN
+F 3 "" H 5650 4375 50  0001 C CNN
+	1    5650 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J34
+U 1 1 5ADFE699
+P 5650 3850
+F 0 "J34" H 5650 4050 50  0000 C CNN
+F 1 "CONN_01X03" V 5750 3850 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 5650 3850 50  0001 C CNN
+F 3 "" H 5650 3850 50  0001 C CNN
+	1    5650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J33
+U 1 1 5ADFE69F
+P 5650 3350
+F 0 "J33" H 5650 3550 50  0000 C CNN
+F 1 "CONN_01X03" V 5750 3350 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 5650 3350 50  0001 C CNN
+F 3 "" H 5650 3350 50  0001 C CNN
+	1    5650 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J32
+U 1 1 5ADFE6A5
+P 5650 2825
+F 0 "J32" H 5650 3025 50  0000 C CNN
+F 1 "CONN_01X03" V 5750 2825 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 5650 2825 50  0001 C CNN
+F 3 "" H 5650 2825 50  0001 C CNN
+	1    5650 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J31
+U 1 1 5ADFE6AB
+P 5650 2300
+F 0 "J31" H 5650 2500 50  0000 C CNN
+F 1 "CONN_01X03" V 5750 2300 50  0000 C CNN
+F 2 "WheelerLab:Ferrobot_Magnet" H 5650 2300 50  0001 C CNN
+F 3 "" H 5650 2300 50  0001 C CNN
+	1    5650 2300
+	1    0    0    -1  
+$EndComp
+Text GLabel 1525 6050 2    60   Input ~ 0
+DIODE1
+Text GLabel 1525 6325 2    60   Input ~ 0
+DIODE2
+Text GLabel 1525 6625 2    60   Input ~ 0
+DIODE3
+Text GLabel 1525 6925 2    60   Input ~ 0
+DIODE4
+Text GLabel 1525 7200 2    60   Input ~ 0
+DIODE5
+Text GLabel 1525 7500 2    60   Input ~ 0
+DIODE6
+Text GLabel 2400 6050 2    60   Input ~ 0
+DIODE7
+Text GLabel 2400 6325 2    60   Input ~ 0
+DIODE8
+Text GLabel 2400 6625 2    60   Input ~ 0
+DIODE9
+Text GLabel 2400 6925 2    60   Input ~ 0
+DIODE10
+Text GLabel 2400 7200 2    60   Input ~ 0
+DIODE11
+Text GLabel 2400 7500 2    60   Input ~ 0
+DIODE12
+Text GLabel 3225 6050 2    60   Input ~ 0
+DIODE13
+Text GLabel 3225 6325 2    60   Input ~ 0
+DIODE14
+Text GLabel 3225 6625 2    60   Input ~ 0
+DIODE15
+Text GLabel 3225 6925 2    60   Input ~ 0
+DIODE16
+Text GLabel 3225 7200 2    60   Input ~ 0
+DIODE17
+Text GLabel 3225 7500 2    60   Input ~ 0
+DIODE18
+Text GLabel 4100 6050 2    60   Input ~ 0
+DIODE19
+Text GLabel 4100 6325 2    60   Input ~ 0
+DIODE20
+Text GLabel 4100 6625 2    60   Input ~ 0
+DIODE21
+Text GLabel 4100 6925 2    60   Input ~ 0
+DIODE22
+Text GLabel 4100 7200 2    60   Input ~ 0
+DIODE23
+Text GLabel 4100 7500 2    60   Input ~ 0
+DIODE24
+Text GLabel 4925 6050 2    60   Input ~ 0
+DIODE25
+Text GLabel 4925 6325 2    60   Input ~ 0
+DIODE26
+Text GLabel 4925 6625 2    60   Input ~ 0
+DIODE27
+Text GLabel 4925 6925 2    60   Input ~ 0
+DIODE28
+Text GLabel 4925 7200 2    60   Input ~ 0
+DIODE29
+Text GLabel 4925 7500 2    60   Input ~ 0
+DIODE30
+Text GLabel 5775 6050 2    60   Input ~ 0
+DIODE31
+Text GLabel 5775 6325 2    60   Input ~ 0
+DIODE32
+Text GLabel 5775 6625 2    60   Input ~ 0
+DIODE33
+Text GLabel 5775 6925 2    60   Input ~ 0
+DIODE34
+Text GLabel 5775 7200 2    60   Input ~ 0
+DIODE35
+Text GLabel 5775 7500 2    60   Input ~ 0
+DIODE36
+Text GLabel 1225 6050 1    60   Input ~ 0
+COLUMN1
+Text GLabel 2100 6050 1    60   Input ~ 0
+COLUMN2
+Text GLabel 2925 6050 1    60   Input ~ 0
+COLUMN3
+Text GLabel 3800 6050 1    60   Input ~ 0
+COLUMN4
+Text GLabel 4625 6050 1    60   Input ~ 0
+COLUMN5
+Text GLabel 5475 6050 1    60   Input ~ 0
+COLUMN6
+NoConn ~ 1100 2300
+NoConn ~ 2025 2300
+NoConn ~ 2875 2300
+NoConn ~ 3800 2300
+NoConn ~ 4525 2300
+NoConn ~ 5450 2300
+NoConn ~ 5450 2825
+NoConn ~ 4525 2825
+NoConn ~ 3800 2825
+NoConn ~ 2875 2825
+NoConn ~ 2025 2825
+NoConn ~ 1100 2825
+NoConn ~ 1100 3350
+NoConn ~ 2025 3350
+NoConn ~ 2875 3350
+NoConn ~ 3800 3350
+NoConn ~ 4525 3350
+NoConn ~ 5450 3350
+NoConn ~ 5450 3850
+NoConn ~ 4525 3850
+NoConn ~ 3800 3850
+NoConn ~ 2875 3850
+NoConn ~ 2025 3850
+NoConn ~ 1100 3850
+NoConn ~ 1100 4375
+NoConn ~ 2025 4375
+NoConn ~ 2875 4375
+NoConn ~ 3800 4375
+NoConn ~ 4525 4375
+NoConn ~ 5450 4375
+NoConn ~ 1100 4875
+NoConn ~ 2025 4875
+NoConn ~ 2875 4875
+NoConn ~ 3800 4875
+NoConn ~ 4525 4875
+NoConn ~ 5450 4875
+Text GLabel 1100 2400 0    60   Input ~ 0
+DIODE1
+Text GLabel 1100 2925 0    60   Input ~ 0
+DIODE2
+Text GLabel 1100 3450 0    60   Input ~ 0
+DIODE3
+Text GLabel 1100 3950 0    60   Input ~ 0
+DIODE4
+Text GLabel 1100 4475 0    60   Input ~ 0
+DIODE5
+Text GLabel 1100 4975 0    60   Input ~ 0
+DIODE6
+Text GLabel 2025 2400 0    60   Input ~ 0
+DIODE7
+Text GLabel 2025 2925 0    60   Input ~ 0
+DIODE8
+Text GLabel 2025 3450 0    60   Input ~ 0
+DIODE9
+Text GLabel 2025 3950 0    60   Input ~ 0
+DIODE10
+Text GLabel 2025 4475 0    60   Input ~ 0
+DIODE11
+Text GLabel 2025 4975 0    60   Input ~ 0
+DIODE12
+Text GLabel 2875 2400 0    60   Input ~ 0
+DIODE13
+Text GLabel 2875 2925 0    60   Input ~ 0
+DIODE14
+Text GLabel 2875 3450 0    60   Input ~ 0
+DIODE15
+Text GLabel 2875 3950 0    60   Input ~ 0
+DIODE16
+Text GLabel 2875 4475 0    60   Input ~ 0
+DIODE17
+Text GLabel 2875 4975 0    60   Input ~ 0
+DIODE18
+Text GLabel 3800 2400 0    60   Input ~ 0
+DIODE19
+Text GLabel 3800 2925 0    60   Input ~ 0
+DIODE20
+Text GLabel 3800 3450 0    60   Input ~ 0
+DIODE21
+Text GLabel 3800 3950 0    60   Input ~ 0
+DIODE22
+Text GLabel 3800 4475 0    60   Input ~ 0
+DIODE23
+Text GLabel 3800 4975 0    60   Input ~ 0
+DIODE24
+Text GLabel 4525 2400 0    60   Input ~ 0
+DIODE25
+Text GLabel 4525 2925 0    60   Input ~ 0
+DIODE26
+Text GLabel 4525 3450 0    60   Input ~ 0
+DIODE27
+Text GLabel 4525 3950 0    60   Input ~ 0
+DIODE28
+Text GLabel 4525 4475 0    60   Input ~ 0
+DIODE29
+Text GLabel 4525 4975 0    60   Input ~ 0
+DIODE30
+Text GLabel 5450 2400 0    60   Input ~ 0
+DIODE31
+Text GLabel 5450 2925 0    60   Input ~ 0
+DIODE32
+Text GLabel 5450 3450 0    60   Input ~ 0
+DIODE33
+Text GLabel 5450 3950 0    60   Input ~ 0
+DIODE34
+Text GLabel 5450 4475 0    60   Input ~ 0
+DIODE35
+Text GLabel 5450 4975 0    60   Input ~ 0
+DIODE36
+Text GLabel 1100 2025 0    60   Input ~ 0
+ROW1
+Text GLabel 1100 2550 0    60   Input ~ 0
+ROW2
+Text GLabel 1100 3075 0    60   Input ~ 0
+ROW3
+Text GLabel 1100 3575 0    60   Input ~ 0
+ROW4
+Text GLabel 1100 4100 0    60   Input ~ 0
+ROW5
+Text GLabel 1100 4600 0    60   Input ~ 0
+ROW6
+Text GLabel 6550 1925 0    60   Input ~ 0
+ROW1
+Text GLabel 6550 2575 0    60   Input ~ 0
+ROW2
+Text GLabel 6550 3225 0    60   Input ~ 0
+ROW3
+Text GLabel 6550 3875 0    60   Input ~ 0
+ROW4
+Text GLabel 6550 4525 0    60   Input ~ 0
+ROW5
+Text GLabel 6550 5175 0    60   Input ~ 0
+ROW6
+Text GLabel 1075 1025 1    60   Input ~ 0
+COLUMN1
+Text GLabel 1950 1025 1    60   Input ~ 0
+COLUMN2
+Text GLabel 2775 1025 1    60   Input ~ 0
+COLUMN3
+Text GLabel 3650 1025 1    60   Input ~ 0
+COLUMN4
+Text GLabel 4475 1025 1    60   Input ~ 0
+COLUMN5
+Text GLabel 5325 1025 1    60   Input ~ 0
+COLUMN6
+$Comp
+L Q_NMOS_DGS Q1
+U 1 1 5AE20D30
+P 1075 1225
+F 0 "Q1" H 1275 1275 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 1275 1175 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-247_TO-3P_Horizontal" H 1275 1325 50  0001 C CNN
+F 3 "" H 1075 1225 50  0001 C CNN
+	1    1075 1225
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NMOS_DGS Q2
+U 1 1 5AE2301A
+P 1950 1225
+F 0 "Q2" H 2150 1275 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 2150 1175 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-247_TO-3P_Horizontal" H 2150 1325 50  0001 C CNN
+F 3 "" H 1950 1225 50  0001 C CNN
+	1    1950 1225
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NMOS_DGS Q3
+U 1 1 5AE230D1
+P 2775 1225
+F 0 "Q3" H 2975 1275 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 2975 1175 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-247_TO-3P_Horizontal" H 2975 1325 50  0001 C CNN
+F 3 "" H 2775 1225 50  0001 C CNN
+	1    2775 1225
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NMOS_DGS Q4
+U 1 1 5AE232F9
+P 3650 1225
+F 0 "Q4" H 3850 1275 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 3850 1175 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-247_TO-3P_Horizontal" H 3850 1325 50  0001 C CNN
+F 3 "" H 3650 1225 50  0001 C CNN
+	1    3650 1225
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NMOS_DGS Q5
+U 1 1 5AE233B8
+P 4475 1225
+F 0 "Q5" H 4675 1275 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 4675 1175 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-247_TO-3P_Horizontal" H 4675 1325 50  0001 C CNN
+F 3 "" H 4475 1225 50  0001 C CNN
+	1    4475 1225
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NMOS_DGS Q6
+U 1 1 5AE23485
+P 5325 1225
+F 0 "Q6" H 5525 1275 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 5525 1175 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-247_TO-3P_Horizontal" H 5525 1325 50  0001 C CNN
+F 3 "" H 5325 1225 50  0001 C CNN
+	1    5325 1225
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NMOS_DGS Q7
+U 1 1 5AE25489
+P 6750 1825
+F 0 "Q7" H 6950 1875 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 6950 1775 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-247_TO-3P_Horizontal" H 6950 1925 50  0001 C CNN
+F 3 "" H 6750 1825 50  0001 C CNN
+	1    6750 1825
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NMOS_DGS Q8
+U 1 1 5AE25A1D
+P 6750 2475
+F 0 "Q8" H 6950 2525 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 6950 2425 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-247_TO-3P_Horizontal" H 6950 2575 50  0001 C CNN
+F 3 "" H 6750 2475 50  0001 C CNN
+	1    6750 2475
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NMOS_DGS Q9
+U 1 1 5AE25AFE
+P 6750 3125
+F 0 "Q9" H 6950 3175 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 6950 3075 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-247_TO-3P_Horizontal" H 6950 3225 50  0001 C CNN
+F 3 "" H 6750 3125 50  0001 C CNN
+	1    6750 3125
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NMOS_DGS Q10
+U 1 1 5AE25BCD
+P 6750 3775
+F 0 "Q10" H 6950 3825 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 6950 3725 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-247_TO-3P_Horizontal" H 6950 3875 50  0001 C CNN
+F 3 "" H 6750 3775 50  0001 C CNN
+	1    6750 3775
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NMOS_DGS Q11
+U 1 1 5AE25CA2
+P 6750 4425
+F 0 "Q11" H 6950 4475 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 6950 4375 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-247_TO-3P_Horizontal" H 6950 4525 50  0001 C CNN
+F 3 "" H 6750 4425 50  0001 C CNN
+	1    6750 4425
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NMOS_DGS Q12
+U 1 1 5AE26009
+P 6750 5075
+F 0 "Q12" H 6950 5125 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 6950 5025 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-247_TO-3P_Horizontal" H 6950 5175 50  0001 C CNN
+F 3 "" H 6750 5075 50  0001 C CNN
+	1    6750 5075
+	0    1    1    0   
+$EndComp
+Text GLabel 4275 1325 0    60   Input ~ 0
+GND
+Text GLabel 5125 1325 0    60   Input ~ 0
+GND
+Text GLabel 3450 1325 0    60   Input ~ 0
+GND
+Text GLabel 2575 1325 0    60   Input ~ 0
+GND
+Text GLabel 1750 1325 0    60   Input ~ 0
+GND
+Text GLabel 875  1325 0    60   Input ~ 0
+GND
+Text GLabel 6750 1625 0    60   Input ~ 0
+PWR
+Text GLabel 6750 2275 0    60   Input ~ 0
+PWR
+Text GLabel 6750 2925 0    60   Input ~ 0
+PWR
+Text GLabel 6750 3575 0    60   Input ~ 0
+PWR
+Text GLabel 6750 4225 0    60   Input ~ 0
+PWR
+Text GLabel 6750 4875 0    60   Input ~ 0
+PWR
+Text GLabel 1275 1325 1    60   Input ~ 0
+C1CONTROL
+Text GLabel 2150 1325 1    60   Input ~ 0
+C2CONTROL
+Text GLabel 2975 1325 1    60   Input ~ 0
+C3CONTROL
+Text GLabel 3850 1325 1    60   Input ~ 0
+C4CONTROL
+Text GLabel 4675 1325 1    60   Input ~ 0
+C5CONTROL
+Text GLabel 5525 1325 1    60   Input ~ 0
+C6CONTROL
+Text GLabel 6950 1925 2    60   Input ~ 0
+R1CONTROL
+Text GLabel 6950 2575 2    60   Input ~ 0
+R2CONTROL
+Text GLabel 6950 3875 2    60   Input ~ 0
+R4CONTROL
+Text GLabel 6950 4525 2    60   Input ~ 0
+R5CONTROL
+Text GLabel 6950 5175 2    60   Input ~ 0
+R6CONTROL
+Text GLabel 6950 3225 2    60   Input ~ 0
+R3CONTROL
+$Comp
+L Teensy_3.2 U1
+U 1 1 5AE08451
+P 9325 2975
+F 0 "U1" H 9325 2975 60  0000 C CNN
+F 1 "Teensy_3.2" H 9325 4425 60  0000 C CNN
+F 2 "WheelerLab:Teensy-3.2" H 9425 2425 60  0001 C CNN
+F 3 "" H 9425 2425 60  0000 C CNN
+	1    9325 2975
+	1    0    0    -1  
+$EndComp
+Text GLabel 8325 2225 0    60   Input ~ 0
+GND
+Text GLabel 9375 4725 3    60   Input ~ 0
+GND
+Text GLabel 7000 1275 0    60   Input ~ 0
+PWR
+Text GLabel 7450 825  0    60   Input ~ 0
+GND
+$Comp
+L CONN_02X06 J38
+U 1 1 5AE0E930
+P 9350 5725
+F 0 "J38" H 9350 6075 50  0000 C CNN
+F 1 "CONN_02X06" H 9350 5375 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm" H 9350 4525 50  0001 C CNN
+F 3 "" H 9350 4525 50  0001 C CNN
+	1    9350 5725
+	1    0    0    -1  
+$EndComp
+Text GLabel 8325 2375 0    60   Input ~ 0
+R1CONTROL
+Text GLabel 8325 2525 0    60   Input ~ 0
+R2CONTROL
+Text GLabel 8325 2825 0    60   Input ~ 0
+R4CONTROL
+Text GLabel 8325 2975 0    60   Input ~ 0
+R5CONTROL
+Text GLabel 8325 3125 0    60   Input ~ 0
+R6CONTROL
+Text GLabel 8325 2675 0    60   Input ~ 0
+R3CONTROL
+Text GLabel 8325 4025 0    60   Input ~ 0
+C6CONTROL
+Text GLabel 8325 3875 0    60   Input ~ 0
+C5CONTROL
+Text GLabel 8325 3725 0    60   Input ~ 0
+C4CONTROL
+Text GLabel 8325 3575 0    60   Input ~ 0
+C3CONTROL
+Text GLabel 8325 3425 0    60   Input ~ 0
+C2CONTROL
+Text GLabel 8325 3275 0    60   Input ~ 0
+C1CONTROL
+Text GLabel 10325 2225 2    60   Input ~ 0
+Vin
+Text GLabel 9600 5475 2    60   Input ~ 0
+Vin
+Text GLabel 9100 5475 0    60   Input ~ 0
+GND
+Text GLabel 9100 5575 0    60   Input ~ 0
+MAGNET1
+Text GLabel 9100 5675 0    60   Input ~ 0
+MAGNET2
+Text GLabel 9100 5775 0    60   Input ~ 0
+MAGNET3
+Text GLabel 9100 5875 0    60   Input ~ 0
+MAGNET4
+Text GLabel 9100 5975 0    60   Input ~ 0
+MAGNET5
+Text GLabel 9600 5975 2    60   Input ~ 0
+MAGNET6
+Text GLabel 9600 5875 2    60   Input ~ 0
+MAGNET7
+Text GLabel 9600 5775 2    60   Input ~ 0
+MAGNET8
+Text GLabel 9600 5675 2    60   Input ~ 0
+MAGNET9
+NoConn ~ 9600 5575
+Text GLabel 10325 3575 2    60   Input ~ 0
+MAGNET6
+Text GLabel 10325 3725 2    60   Input ~ 0
+MAGNET7
+Text GLabel 10325 3875 2    60   Input ~ 0
+MAGNET8
+Text GLabel 10325 4025 2    60   Input ~ 0
+MAGNET9
+Text GLabel 10325 2825 2    60   Input ~ 0
+MAGNET1
+Text GLabel 10325 2975 2    60   Input ~ 0
+MAGNET2
+Text GLabel 10325 3125 2    60   Input ~ 0
+MAGNET3
+Text GLabel 10325 3275 2    60   Input ~ 0
+MAGNET4
+Text GLabel 10325 3425 2    60   Input ~ 0
+MAGNET5
+NoConn ~ 8325 4175
+NoConn ~ 9075 4725
+NoConn ~ 9225 4725
+NoConn ~ 9525 4725
+NoConn ~ 9675 4725
+NoConn ~ 10325 4175
+NoConn ~ 10325 2675
+NoConn ~ 10325 2525
+NoConn ~ 10325 2375
+NoConn ~ 10325 1925
+NoConn ~ 10325 1775
+NoConn ~ 10325 1625
+$Comp
+L SPST S1
+U 1 1 5AE1FABC
+P 7250 1275
+F 0 "S1" H 7200 1425 60  0000 C CNN
+F 1 "SPST" H 7250 1175 60  0000 C CNN
+F 2 "WheelerLab:L101_Switch" H 7250 1275 60  0001 C CNN
+F 3 "" H 7250 1275 60  0000 C CNN
+	1    7250 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1225 6050 1225 7500
+Connection ~ 1225 6325
+Connection ~ 1225 6625
+Connection ~ 1225 6925
+Connection ~ 1225 7200
+Wire Wire Line
+	2100 6050 2100 7500
+Connection ~ 2100 7200
+Connection ~ 2100 6925
+Connection ~ 2100 6625
+Connection ~ 2100 6325
+Wire Wire Line
+	2925 6050 2925 7500
+Connection ~ 2925 6325
+Connection ~ 2925 6625
+Connection ~ 2925 6925
+Connection ~ 2925 7200
+Wire Wire Line
+	3800 6050 3800 7500
+Connection ~ 3800 6325
+Connection ~ 3800 6625
+Connection ~ 3800 6925
+Connection ~ 3800 7200
+Connection ~ 3800 7500
+Connection ~ 4625 6325
+Connection ~ 4625 6625
+Connection ~ 4625 6925
+Connection ~ 4625 7200
+Wire Wire Line
+	4625 6050 4625 7500
+Wire Wire Line
+	1100 4775 1100 4600
+Wire Wire Line
+	1100 4600 5450 4600
+Wire Wire Line
+	5450 4600 5450 4775
+Wire Wire Line
+	4525 4775 4525 4600
+Connection ~ 4525 4600
+Wire Wire Line
+	3800 4775 3800 4600
+Connection ~ 3800 4600
+Wire Wire Line
+	2875 4775 2875 4600
+Connection ~ 2875 4600
+Connection ~ 2025 4600
+Wire Wire Line
+	1100 4275 1100 4100
+Wire Wire Line
+	1100 4100 5450 4100
+Wire Wire Line
+	5450 4100 5450 4275
+Wire Wire Line
+	4525 4275 4525 4100
+Connection ~ 4525 4100
+Wire Wire Line
+	3800 4275 3800 4100
+Connection ~ 3800 4100
+Wire Wire Line
+	2875 4275 2875 4100
+Connection ~ 2875 4100
+Wire Wire Line
+	2025 4275 2025 4100
+Connection ~ 2025 4100
+Wire Wire Line
+	2025 4600 2025 4775
+Wire Wire Line
+	1100 3750 1100 3575
+Wire Wire Line
+	1100 3575 5450 3575
+Wire Wire Line
+	5450 3575 5450 3750
+Wire Wire Line
+	4525 3750 4525 3575
+Connection ~ 4525 3575
+Wire Wire Line
+	3800 3750 3800 3575
+Connection ~ 3800 3575
+Wire Wire Line
+	2875 3750 2875 3575
+Connection ~ 2875 3575
+Connection ~ 2025 3575
+Wire Wire Line
+	2025 3575 2025 3750
+Wire Wire Line
+	1100 3250 1100 3075
+Wire Wire Line
+	1100 3075 5450 3075
+Wire Wire Line
+	5450 3075 5450 3250
+Wire Wire Line
+	4525 3250 4525 3075
+Connection ~ 4525 3075
+Wire Wire Line
+	3800 3250 3800 3075
+Connection ~ 3800 3075
+Wire Wire Line
+	2875 3250 2875 3075
+Connection ~ 2875 3075
+Connection ~ 2025 3075
+Wire Wire Line
+	2025 3075 2025 3250
+Wire Wire Line
+	1100 2725 1100 2550
+Wire Wire Line
+	1100 2550 5450 2550
+Wire Wire Line
+	5450 2550 5450 2725
+Wire Wire Line
+	4525 2725 4525 2550
+Connection ~ 4525 2550
+Wire Wire Line
+	3800 2725 3800 2550
+Connection ~ 3800 2550
+Wire Wire Line
+	2875 2725 2875 2550
+Connection ~ 2875 2550
+Connection ~ 2025 2550
+Wire Wire Line
+	2025 2550 2025 2725
+Wire Wire Line
+	1100 2200 1100 2025
+Wire Wire Line
+	1100 2025 5450 2025
+Wire Wire Line
+	5450 2025 5450 2200
+Wire Wire Line
+	4525 2200 4525 2025
+Connection ~ 4525 2025
+Wire Wire Line
+	3800 2200 3800 2025
+Connection ~ 3800 2025
+Wire Wire Line
+	2875 2200 2875 2025
+Connection ~ 2875 2025
+Connection ~ 2025 2025
+Wire Wire Line
+	2025 2025 2025 2200
+Wire Wire Line
+	5475 6050 5475 7500
+Connection ~ 5475 6325
+Connection ~ 5475 6625
+Connection ~ 5475 6925
+Connection ~ 5475 7200
+$Comp
+L BARREL_JACK J37
+U 1 1 5AE0CF31
+P 7750 925
+F 0 "J37" H 7750 1120 50  0000 C CNN
+F 1 "BARREL_JACK" H 7750 770 50  0000 C CNN
+F 2 "Wheeler:DC_JACK_SMD" H 7750 925 50  0001 C CNN
+F 3 "" H 7750 925 50  0001 C CNN
+	1    7750 925 
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 J39
+U 1 1 5AE2421F
+P 9025 750
+F 0 "J39" H 9025 850 50  0000 C CNN
+F 1 "CONN_01X01" V 9125 750 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 9025 750 50  0001 C CNN
+F 3 "" H 9025 750 50  0001 C CNN
+	1    9025 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 J40
+U 1 1 5AE24350
+P 9525 750
+F 0 "J40" H 9525 850 50  0000 C CNN
+F 1 "CONN_01X01" V 9625 750 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 9525 750 50  0001 C CNN
+F 3 "" H 9525 750 50  0001 C CNN
+	1    9525 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 J41
+U 1 1 5AE247C0
+P 10025 750
+F 0 "J41" H 10025 850 50  0000 C CNN
+F 1 "CONN_01X01" V 10125 750 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 10025 750 50  0001 C CNN
+F 3 "" H 10025 750 50  0001 C CNN
+	1    10025 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 J42
+U 1 1 5AE2488B
+P 10550 750
+F 0 "J42" H 10550 850 50  0000 C CNN
+F 1 "CONN_01X01" V 10650 750 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 10550 750 50  0001 C CNN
+F 3 "" H 10550 750 50  0001 C CNN
+	1    10550 750 
+	0    1    1    0   
+$EndComp
+NoConn ~ 9025 550 
+NoConn ~ 9525 550 
+NoConn ~ 10025 550 
+NoConn ~ 10550 550 
+Text Notes 8600 6275 0    60   ~ 0
+CONNECTOR FOR BUTTON CONTROL
+Text Notes 8950 1050 0    60   ~ 0
+MECHANICAL HOLES FOR M3 SCREWS
+Text Notes 6300 650  0    60   ~ 0
+ELECTROMAGNET HIGH CURRENT POWER CONNECTION
+Text Notes 8675 1400 0    60   ~ 0
+TEENSY MICROCONTROLLER
+Text Notes 1700 5450 0    60   ~ 0
+ELECTROMAGNET GRID\n\n                                                SCHOTKY DIODES
+Text GLabel 7450 1025 0    60   Input ~ 0
+GND
+Text GLabel 7450 925  0    60   Input ~ 0
+PWR_SWITCH
+Text GLabel 7500 1275 2    60   Input ~ 0
+PWR_SWITCH
+$EndSCHEMATC
