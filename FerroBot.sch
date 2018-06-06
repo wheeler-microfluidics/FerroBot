@@ -744,20 +744,7 @@ Text GLabel 6950 5175 2    60   Input ~ 0
 R6CONTROL
 Text GLabel 6950 3225 2    60   Input ~ 0
 R3CONTROL
-$Comp
-L Teensy_3.2 U1
-U 1 1 5AE08451
-P 9325 2975
-F 0 "U1" H 9325 2975 60  0000 C CNN
-F 1 "Teensy_3.2" H 9325 4425 60  0000 C CNN
-F 2 "WheelerLab:Teensy-3.2" H 9425 2425 60  0001 C CNN
-F 3 "" H 9425 2425 60  0000 C CNN
-	1    9325 2975
-	1    0    0    -1  
-$EndComp
-Text GLabel 8325 2225 0    60   Input ~ 0
-GND
-Text GLabel 9375 4725 3    60   Input ~ 0
+Text GLabel 8630 2690 0    60   Input ~ 0
 GND
 Text GLabel 7000 1275 0    60   Input ~ 0
 PWR
@@ -774,34 +761,30 @@ F 3 "" H 9350 4525 50  0001 C CNN
 	1    9350 5725
 	1    0    0    -1  
 $EndComp
-Text GLabel 8325 2375 0    60   Input ~ 0
+Text GLabel 8630 2790 0    60   Input ~ 0
 R1CONTROL
-Text GLabel 8325 2525 0    60   Input ~ 0
+Text GLabel 8630 2890 0    60   Input ~ 0
 R2CONTROL
-Text GLabel 8325 2825 0    60   Input ~ 0
+Text GLabel 8630 3090 0    60   Input ~ 0
 R4CONTROL
-Text GLabel 8325 2975 0    60   Input ~ 0
+Text GLabel 8630 3190 0    60   Input ~ 0
 R5CONTROL
-Text GLabel 8325 3125 0    60   Input ~ 0
+Text GLabel 8630 3290 0    60   Input ~ 0
 R6CONTROL
-Text GLabel 8325 2675 0    60   Input ~ 0
+Text GLabel 8630 2990 0    60   Input ~ 0
 R3CONTROL
-Text GLabel 8325 4025 0    60   Input ~ 0
+Text GLabel 8630 3890 0    60   Input ~ 0
 C6CONTROL
-Text GLabel 8325 3875 0    60   Input ~ 0
+Text GLabel 8630 3790 0    60   Input ~ 0
 C5CONTROL
-Text GLabel 8325 3725 0    60   Input ~ 0
+Text GLabel 8630 3690 0    60   Input ~ 0
 C4CONTROL
-Text GLabel 8325 3575 0    60   Input ~ 0
+Text GLabel 8630 3590 0    60   Input ~ 0
 C3CONTROL
-Text GLabel 8325 3425 0    60   Input ~ 0
+Text GLabel 8630 3490 0    60   Input ~ 0
 C2CONTROL
-Text GLabel 8325 3275 0    60   Input ~ 0
+Text GLabel 8630 3390 0    60   Input ~ 0
 C1CONTROL
-Text GLabel 10325 2225 2    60   Input ~ 0
-Vin
-Text GLabel 9600 5475 2    60   Input ~ 0
-Vin
 Text GLabel 9100 5475 0    60   Input ~ 0
 GND
 Text GLabel 9100 5575 0    60   Input ~ 0
@@ -823,36 +806,24 @@ MAGNET8
 Text GLabel 9600 5675 2    60   Input ~ 0
 MAGNET9
 NoConn ~ 9600 5575
-Text GLabel 10325 3575 2    60   Input ~ 0
+Text GLabel 9890 3415 2    60   Input ~ 0
 MAGNET6
-Text GLabel 10325 3725 2    60   Input ~ 0
+Text GLabel 9890 3315 2    60   Input ~ 0
 MAGNET7
-Text GLabel 10325 3875 2    60   Input ~ 0
+Text GLabel 9890 3215 2    60   Input ~ 0
 MAGNET8
-Text GLabel 10325 4025 2    60   Input ~ 0
+Text GLabel 9890 3115 2    60   Input ~ 0
 MAGNET9
-Text GLabel 10325 2825 2    60   Input ~ 0
+Text GLabel 9890 3915 2    60   Input ~ 0
 MAGNET1
-Text GLabel 10325 2975 2    60   Input ~ 0
+Text GLabel 9890 3815 2    60   Input ~ 0
 MAGNET2
-Text GLabel 10325 3125 2    60   Input ~ 0
+Text GLabel 9890 3715 2    60   Input ~ 0
 MAGNET3
-Text GLabel 10325 3275 2    60   Input ~ 0
+Text GLabel 9890 3615 2    60   Input ~ 0
 MAGNET4
-Text GLabel 10325 3425 2    60   Input ~ 0
+Text GLabel 9890 3515 2    60   Input ~ 0
 MAGNET5
-NoConn ~ 8325 4175
-NoConn ~ 9075 4725
-NoConn ~ 9225 4725
-NoConn ~ 9525 4725
-NoConn ~ 9675 4725
-NoConn ~ 10325 4175
-NoConn ~ 10325 2675
-NoConn ~ 10325 2525
-NoConn ~ 10325 2375
-NoConn ~ 10325 1925
-NoConn ~ 10325 1775
-NoConn ~ 10325 1625
 $Comp
 L SPST S1
 U 1 1 5AE1FABC
@@ -970,8 +941,6 @@ Text Notes 8950 1050 0    60   ~ 0
 MECHANICAL HOLES FOR M3 SCREWS
 Text Notes 6300 650  0    60   ~ 0
 ELECTROMAGNET HIGH CURRENT POWER CONNECTION
-Text Notes 8675 1400 0    60   ~ 0
-TEENSY MICROCONTROLLER
 Text Notes 1430 5535 0    60   ~ 0
 ELECTROMAGNET GRID\n\n                                                SCHOTKY DIODES
 Text GLabel 7450 1025 0    60   Input ~ 0
@@ -1478,4 +1447,31 @@ ROW5
 Connection ~ 4605 2490
 Connection ~ 4660 3540
 Connection ~ 4635 4685
+$Comp
+L Conn_01x09 J3
+U 1 1 5B17FC1B
+P 9690 3515
+F 0 "J3" H 9690 4015 50  0000 C CNN
+F 1 "Conn_01x09" H 9690 3015 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x09_Pitch2.54mm" H 9690 3515 50  0001 C CNN
+F 3 "" H 9690 3515 50  0001 C CNN
+	1    9690 3515
+	-1   0    0    1   
+$EndComp
+Text Notes 9445 2945 0    60   ~ 0
+Button output to arduino\n
+Text Notes 8055 2620 0    60   ~ 0
+Input from arduino
+$Comp
+L Conn_01x13 J1
+U 1 1 5B18886C
+P 8830 3290
+F 0 "J1" H 8830 3990 50  0000 C CNN
+F 1 "Conn_01x13" H 8830 2590 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x13_Pitch2.54mm" H 8830 3290 50  0001 C CNN
+F 3 "" H 8830 3290 50  0001 C CNN
+	1    8830 3290
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9600 5475
 $EndSCHEMATC
